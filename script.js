@@ -7,7 +7,7 @@ document.getElementById('captureForm').addEventListener('submit', function(e) {
 
     // Simula envio de dados
     if (name && email) {
-        messageElement.textContent = `Obrigado, ${name}! Seu eBook será enviado para ${email}.`;
+        messageElement.textContent = `Obrigado, ${name}! Sua promoção será enviada para ${email}.`;
         messageElement.style.color = '#00ff00';
     } else {
         messageElement.textContent = 'Por favor, preencha todos os campos.';
